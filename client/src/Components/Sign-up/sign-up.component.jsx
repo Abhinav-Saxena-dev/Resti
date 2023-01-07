@@ -46,7 +46,7 @@ const SignUp = () => {
 
     return(
         <div class = "flex w-full h-full flex-col justify-center items-center">
-            <h1 class = "font-bold text-4xl">Have an Account?</h1>
+            <h1 class = "font-bold text-4xl">No Accont? Sign up!</h1>
             <form action="" onSubmit={handleSubmit} class = "w-2/5">
                 <FormInput name = "name" label = "Name" type = "text" value = {user.name} handleChange={handleChange} />
                 <FormInput name = "email" label = "Email" type = "text" value = {user.email} handleChange={handleChange} />
